@@ -1,3 +1,8 @@
+import heroBay from '../assets/images/hero_automotive_bay_1794051848637.jpg';
+import engineDetail from '../assets/images/engine_diagnostics_detail_1794051851219.jpg';
+import wheelAlignment from '../assets/images/wheel_alignment_chassis_1794051851891.jpg';
+import detailingStudio from '../assets/images/detailing_wash_studio_1794051853961.jpg';
+
 export type Language = 'ru' | 'en';
 
 export type ServiceCategory =
@@ -80,10 +85,10 @@ export const VERIFIED_BUSINESS_INFO = {
 } as const;
 
 export const IMAGE_ASSETS = {
-  heroBay: '/src/assets/images/hero_automotive_bay_1794051848637.jpg',
-  engineDetail: '/src/assets/images/engine_diagnostics_detail_1794051851219.jpg',
-  wheelAlignment: '/src/assets/images/wheel_alignment_chassis_1794051851891.jpg',
-  detailingStudio: '/src/assets/images/detailing_wash_studio_1794051853961.jpg',
+  heroBay,
+  engineDetail,
+  wheelAlignment,
+  detailingStudio,
 } as const;
 
 export const SERVICE_ITEMS: ServiceItem[] = [
