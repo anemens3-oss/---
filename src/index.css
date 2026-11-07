@@ -1,0 +1,60 @@
+@import "tailwindcss";
+
+@layer base {
+  :root {
+    --bg-obsidian: #0A0A0C;
+    --bg-graphite: #121317;
+    --bg-surface: #181A20;
+    --border-hairline: rgba(255, 255, 255, 0.08);
+    --text-primary: #F4F4F6;
+    --text-secondary: #A0A4B0;
+    --text-muted: #6C707E;
+    --accent-crimson: #D9232E;
+    --accent-crimson-hover: #E63540;
+  }
+
+  html {
+    color-scheme: dark;
+    background-color: #0A0A0C;
+    color: #F4F4F6;
+    font-family: 'Plus Jakarta Sans', -apple-system, BlinkMacSystemFont, sans-serif;
+    scroll-behavior: smooth;
+    -webkit-font-smoothing: antialiased;
+  }
+
+  body {
+    background-color: #0A0A0C;
+    color: #F4F4F6;
+    overflow-x: hidden;
+    letter-spacing: 0.01em;
+  }
+}
+
+.font-display {
+  font-family: 'Barlow Condensed', 'Plus Jakarta Sans', sans-serif;
+  letter-spacing: -0.01em;
+}
+
+.font-sans-body {
+  font-family: 'Plus Jakarta Sans', -apple-system, BlinkMacSystemFont, sans-serif;
+}
+
+.font-mono-tech {
+  font-family: 'JetBrains Mono', monospace;
+  font-variant-numeric: tabular-nums;
+}
+
+.headline-balance {
+  text-wrap: balance;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  *,
+  ::before,
+  ::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+    scroll-behavior: auto !important;
+  }
+}

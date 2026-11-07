@@ -1,0 +1,6 @@
+{
+  "name": "RAI SERVICE — Automotive Editorial Redesign",
+  "description": "Independent premium automotive editorial redesign concept for RAI SERVICE (raiservis.ru), multi-brand auto repair and detailing studio in Mytishchi.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
